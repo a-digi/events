@@ -7,14 +7,15 @@
       "email": "tafa.andet@googlemail.com"
     }
   ],
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "library",
   "license": "MIT",
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
     "php": ">=8.2",
-    "psr/event-dispatcher": "^1.0"
+    "psr/event-dispatcher": "^1.0",
+    "t-digi/contracts": "^1.0.2"
   },
   "config": {
     "optimize-autoloader": true,
