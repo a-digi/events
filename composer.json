@@ -1,0 +1,32 @@
+{
+  "name": "a-digi/events",
+  "description": "AriAva event component",
+  "authors": [
+    {
+      "name": "Andet Tafa",
+      "email": "tafa.andet@googlemail.com"
+    }
+  ],
+  "version": "1.0.0",
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=8.2",
+    "psr/event-dispatcher": "^1.0"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": {
+      "*": "dist"
+    },
+    "allow-plugins": true,
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "AriAva\\Events\\": "src/"
+    }
+  }
+}
