@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace AriAva\Events;
 
 use Psr\EventDispatcher\EventDispatcherInterface;
+use AriAva\Contracts\Events\EventListenerInterface;
 
 final class EventDispatcher implements EventDispatcherInterface
 {
