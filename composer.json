@@ -15,7 +15,7 @@
   "require": {
     "php": ">=8.2",
     "psr/event-dispatcher": "^1.0",
-    "t-digi/contracts": "^1.0.2"
+    "a-digi/contracts": "^1.0.2"
   },
   "config": {
     "optimize-autoloader": true,
